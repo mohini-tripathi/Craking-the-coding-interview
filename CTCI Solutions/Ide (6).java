@@ -16,7 +16,7 @@ class Codechef
 	static boolean palindrome(String str) {
 	    int count=0,i;
 	    boolean flag = false;
-	    int[] array = new int[128];
+	    int[] array = new int[106];
 	    char[] strArray = str.toCharArray();
 	    StringBuilder build = new StringBuilder(str);
 	    for (char c: strArray) {
